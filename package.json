@@ -1,0 +1,15 @@
+{
+  "name": "cashu-token-webhook-decoder",
+  "version": "1.0.0",
+  "description": "Node.js app to decode Cashu tokens via webhook and check their status.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@cashu/cashu-ts": "^1.0.0-rc.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.3"
+  }
+}
